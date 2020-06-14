@@ -42,10 +42,10 @@ df2['file_event'].replace(np.nan, '', inplace=True)
 
 #--------- EMAIL SYSTEM
 # create message object instance
-username = 'manuel.robalinho@gmail.com'
+username = 'your_emailo@gmail.com'
 # a password é obtiga na configuração de segurança em 2 passos do google
 # ao definir password para acesso de APPs
-password = 'fxsaglakxrxztqfc'
+password = 'your_password'
 fromaddr = 'manuel.robalinho@gmail.com' 
 
 yag = yagmail.SMTP(fromaddr, password)
