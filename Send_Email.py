@@ -48,10 +48,10 @@ msg = MIMEMultipart()
 #------------------------------------------------------------
 # Send Email function
 def send_email(fromaddr, toaddrs, msg):
-    username = 'manuel.robalinho@gmail.com'
+    username = 'your_email@gmail.com'
     # a password é obtiga na configuração de segurança em 2 passos do google
     # ao definir password para acesso de APPs
-    password = 'fxsaglakxrxztqfc'
+    password = 'your_password'
     #....
     server = smtplib.SMTP_SSL("smtp.gmail.com",465)
     server.ehlo()
